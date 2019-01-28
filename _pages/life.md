@@ -5,9 +5,9 @@ layout: archive
 author_profile: true
 ---
 
-{% include group-by-array collection=site.posts field="tags" %}
+<!-- {% include group-by-array collection=site.posts field="tags" %}
 
-<!-- {% for tag in group_names %}
+{% for tag in group_names %}
   <p> {{ group_name }}, {{ tag }}</p>
   {% if tag == title %}
     {% assign posts = group_items[forloop.index0] %}
@@ -17,10 +17,6 @@ author_profile: true
   {% endif %}
 {% endfor %} -->
 
-{% assign posts = group_items[forloop.index0] %}
-{% for post in posts %}
-  <p> {{title}} {{group_names}}</p>
-  {% if title in group_names[tag] %}
-    {% include archive-single.html %}
-  {% endif %}
+{% for post in site.categories.life %}
+ <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
