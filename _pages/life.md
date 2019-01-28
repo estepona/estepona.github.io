@@ -8,7 +8,8 @@ author_profile: true
 {% include group-by-array collection=site.posts field="tags" %}
 
 {% for tag in group_names %}
-  {% if tag == page.title %}
+  <p> {{ group_name }}, {{ tag }}</p>
+  {% if tag == title %}
     {% assign posts = group_items[forloop.index0] %}
     {% for post in posts %}
       {% include archive-single.html %}
