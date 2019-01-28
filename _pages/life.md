@@ -19,7 +19,7 @@ author_profile: true
 
 {% assign posts = group_items[forloop.index0] %}
 {% for post in posts %}
-  <p> {{title}} {{group_names[tag]}}</p>
+  <p> {{title}} {{group_names}}</p>
   {% if title in group_names[tag] %}
     {% include archive-single.html %}
   {% endif %}
