@@ -16,3 +16,7 @@ author_profile: true
     {% endfor %}
   {% endif %}
 {% endfor %}
+
+{% for g in group_items %}
+  <p> {{ g }} </p>
+{% endfor %}
