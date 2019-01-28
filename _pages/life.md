@@ -7,7 +7,7 @@ author_profile: true
 
 {% include group-by-array collection=site.posts field="tags" %}
 
-{% for tag in group_names %}
+<!-- {% for tag in group_names %}
   <p> {{ group_name }}, {{ tag }}</p>
   {% if tag == title %}
     {% assign posts = group_items[forloop.index0] %}
@@ -15,7 +15,7 @@ author_profile: true
       {% include archive-single.html %}
     {% endfor %}
   {% endif %}
-{% endfor %}
+{% endfor %} -->
 
 {% assign posts = group_items[forloop.index0] %}
 {% for post in posts %}
