@@ -17,7 +17,7 @@ I write poems. I wrote this poem in 2016.
 Code is art. I wonder how it looks like in a computer's "eyes".
 
 First, encode it with [utf-8](https://en.wikipedia.org/wiki/UTF-8), and convert each character into hex value. In Python, there are built-in methods to do so:
-```Python
+```python
 hex_val = c.encode('utf-8').hex()
 ```
 
@@ -44,7 +44,7 @@ e4 b8 80 e5 8f aa e5 8f ab e5 b1 b1 e7 a5 9e
 ```
 
 Further down the path, convert it into machine code, 0 and 1:
-```Python
+```python
 bin_val = bin(int(hex_val, 16))
 ```
 
