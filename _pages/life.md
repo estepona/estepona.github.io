@@ -17,6 +17,9 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
-{% for g in group_items %}
-  <p> {{ g }} </p>
+{% assign posts = group_items[forloop.index0] %}
+{% for post in posts %}
+  {% if title in grou_names[tag] %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
