@@ -1,6 +1,6 @@
 ---
-title: "test"
-permalink: /test/
+title: "life"
+permalink: /life/
 layout: archive
 author_profile: true
 ---
