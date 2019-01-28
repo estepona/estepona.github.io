@@ -107,10 +107,10 @@ analytics:
 # Site Author
 author:
   name             : "Binghuan Zhang"
-  avatar           : "/assets/img/我和志明_thumbnail.png"
+  avatar           : ""
   bio              : "风大上天"
   location         : "Boston, MA"
-  email            : "574953550@qq.com"
+  email            : ""
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -126,7 +126,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https:/github.com/estepona"
+      url: "estepona"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"

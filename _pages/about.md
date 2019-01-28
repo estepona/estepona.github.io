@@ -1,7 +1,6 @@
 ---
-title: "test"
-permalink: /test/
-layout: archive
+title: "about"
+permalink: /about/
 ---
 
 111001101010001010100110
