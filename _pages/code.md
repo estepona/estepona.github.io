@@ -5,8 +5,6 @@ layout: archive
 author_profile: true
 ---
 
-111001101010001010100110
-
-{% for post in site.categories.life %}
+{% for post in site.categories.code %}
   {% include archive-single.html %}
 {% endfor %}
