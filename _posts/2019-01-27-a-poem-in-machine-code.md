@@ -4,7 +4,7 @@ date: 2019-01-27
 categories: code
 ---
 
-I write poems. I wrote this poem in 2016.
+I write poems. I wrote this short poem in 2016.
 
 >梦
 >
@@ -16,7 +16,7 @@ I write poems. I wrote this poem in 2016.
 
 Code is art. I wonder how it looks like in a computer's "eyes".
 
-First, encode it with [utf-8](https://en.wikipedia.org/wiki/UTF-8), and convert each character into hex value. In Python, there are built-in methods to do so:
+First, encode each character with [utf-8](https://en.wikipedia.org/wiki/UTF-8) into hex value. In Python, you get value like "\xe6\xa2\xa6" after `.encode('utf-8')`, "\x" is a way for Python to identify that is's a hex value, then `.hex()` removes all "\x"s:
 ```python
 hex_val = c.encode('utf-8').hex()
 ```
@@ -32,7 +32,7 @@ e4b880 e58faa e58fab e7a59e e5b1b1
 e4b880 e58faa e58fab e5b1b1 e7a59e
 ```
 
-It seems that in utf-8, each Chinese character in the poem is represented with 3 bytes. Separating each byte make it looks better, I really like this version, but harder to know which character they belongs to.
+It seems that in utf-8, each Chinese character in the poem is represented by 3 bytes. Separating each byte makes it look better. I really like this version, but it's harder to know which character they belong to.
 ```
 e6 a2 a6
 
@@ -43,12 +43,12 @@ e4 b8 80 e5 8f aa e5 8f ab e7 a5 9e e5 b1 b1
 e4 b8 80 e5 8f aa e5 8f ab e5 b1 b1 e7 a5 9e
 ```
 
-Further down the path, convert it into machine code, 0 and 1:
+Further down the path, convert the hex values into machine code, 0 and 1:
 ```python
 bin_val = bin(int(hex_val, 16))
 ```
 
-Results in:
+Result:
 ```
 111001101010001010100110
 
@@ -74,4 +74,4 @@ Again, separate each byte:
 
 Now, there is really no way I can tell what they represent, that I wrote it, and that after I post it to the Internet this is what's actually stored! I do think it's beautiful. And so I heard that researchers and software engineers in the early days actually do things this way. What a time.
 
-I also tried encode it with encodings other than utf-8. For Chinese characters, it is in fact more efficient to use encodings like [gb2313](https://en.wikipedia.org/wiki/GB_2312), which uses only 2 bytes for each character, saving 1 more byte for each character. But for the purpose of this post, it works in similar ways.
+I also tried to encode it with encodings other than utf-8. For Chinese characters, it is in fact more efficient to use encodings like [gb2313](https://en.wikipedia.org/wiki/GB_2312), which uses only 2 bytes for each character, saving 1/3 more space compared to utf-8. But for the purpose of this post, you get the idea.
