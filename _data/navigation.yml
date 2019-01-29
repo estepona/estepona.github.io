@@ -1,9 +1,11 @@
 # main links
 main:
   - title: "code"
-    url: /code/
+    url: /categories/code/
   - title: "life"
-    url: /life/
+    url: /categories/life/
+  - title: "诗"
+    url: /categories/poem/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

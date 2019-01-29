@@ -1,10 +1,10 @@
 ---
-title: "code"
-permalink: /categories/code/
+title: "诗"
+permalink: /categories/poem/
 layout: archive
 author_profile: true
 ---
 
-{% for post in site.categories.code %}
+{% for post in site.categories.poem %}
   {% include archive-single.html %}
 {% endfor %}

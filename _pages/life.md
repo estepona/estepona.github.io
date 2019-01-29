@@ -1,6 +1,6 @@
 ---
 title: "life"
-permalink: /life/
+permalink: /categories/life/
 layout: archive
 author_profile: true
 ---
