@@ -2,8 +2,8 @@
 main:
   - title: "code"
     url: /categories/code/
-  - title: "life"
-    url: /categories/life/
+  - title: "杂"
+    url: /categories/za/
   - title: "诗"
     url: /categories/poem/
   # - title: "About"
