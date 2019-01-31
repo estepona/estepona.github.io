@@ -1,14 +1,14 @@
 ---
-title: "note on paper \"Modern Code Review: A Case Study at Google\""
+title: "notes on paper \"Modern Code Review: A Case Study at Google\""
 date: 2019-01-30
 categories: code
 ---
 
 I came across this paper this week and thought it very worth reading. The authors investigated the code review practice at Google and shared some insights.
 
-link to original paper: https://storage.googleapis.com/pub-tools-public-publication-data/pdf/80735342aebcbfc8af4878373f842c25323cb985.pdf
+Click [here](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/80735342aebcbfc8af4878373f842c25323cb985.pdf) to read the original paper.
 
-If you want to grasp the paper is one paragrah, the [original paper's conclusion](#authors-conclusion) provides a great summary.
+If you want to grasp the paper is one paragrah, the original paper's conclusion at the bottom provides a great summary.
 
 ## key notes
 - code review at Google was introduced at the very beginning of the company, and is viewed as one of its core advantages;
