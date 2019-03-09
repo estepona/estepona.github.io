@@ -4,7 +4,7 @@ date: 2019-03-07
 categories: code
 ---
 
-This is the probably the most convincing paper I have read on arguing the power of the current state-of-art artificial intelligence, namely AlphaStar (AlphaGo, AlphaGo Zero, AlphaZero). While the authors of AlphaStar said that it's the most challenging of domains and it needs no knowledge of the domain beyond basic rules, Gary Marcus, author of this paper, questions the this statement, and believes that artificial intelligence needs greater attention to innateness, which is the main subject of this paper.
+This is the probably the most convincing paper I have read on arguing the power of the current state-of-art artificial intelligence, namely AlphaStar (AlphaGo, AlphaGo Zero, AlphaZero). While the authors of AlphaStar said that it's the most challenging of domains and it needs no knowledge of the domain beyond basic rules, Gary Marcus, author of this paper, questions this statement, and believes that artificial intelligence needs greater attention to innateness, which is the main subject of this paper.
 
 Click [here](https://arxiv.org/ftp/arxiv/papers/1801/1801.05667.pdf) to read the original paper.
 
