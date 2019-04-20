@@ -16,7 +16,7 @@ Though the problem is there, I didn't have any other alternatives that are as si
 
 ![dracula-python](/assets/img/2019-04-19-goodbye-pycharm/dracula.png)
 
-Personally, PyCharm's Dracula theme is one of my favorite things of PyCharm, much better than the default code theme in VSCode. Now I can have PyCharm's color theme working in VSCode, isn't that awesome?
+Personally, PyCharm's Dracula theme is one of my favorite things of PyCharm, much better than the default code theme in VSCode. Now I can have PyCharm's color theme working in VSCode, isn't that awesome? The binary search code below is showing in VSCode.
 
 ![sample-code](/assets/img/2019-04-19-goodbye-pycharm/sample-code.png)
 
