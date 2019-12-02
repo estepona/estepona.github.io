@@ -2,6 +2,9 @@
 title: "notes on paper \"Innateness, AlphaZero, and Artificial Intelligence\""
 date: 2019-03-07
 categories: code
+
+classes:
+  - wide
 ---
 
 This is the probably the most convincing paper I have read on arguing the power of the current state-of-art artificial intelligence, namely the AlphaGo Series (AlphaGo, AlphaGo Zero, AlphaZero). While the DeepMind said that it's the most challenging of domains and it needs no knowledge of the domain beyond basic rules, Gary Marcus, author of this paper, questions this statement, and believes that artificial intelligence needs greater attention to innateness, which is the main subject of this paper.

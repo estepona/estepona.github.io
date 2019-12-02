@@ -2,6 +2,9 @@
 title: "a poem in machine code"
 date: 2019-01-27
 categories: code
+
+classes:
+  - wide
 ---
 
 I write poems. I wrote this short poem in 2015.

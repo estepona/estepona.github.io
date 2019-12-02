@@ -2,6 +2,11 @@
 title: "IEEE 754 floating representation through python"
 date: 2019-11-12
 categories: code
+
+header:
+  image: /assets/img/2019-11-12-IEEE-754-floating-representation-through-python/header3.png
+classes:
+  - wide
 ---
 
 Today it's all about floats. How a float (number) is represented in binary, and in machine? Let's try an example in Python. I found this topic to be really interesting as we're going to the very basics of computing!

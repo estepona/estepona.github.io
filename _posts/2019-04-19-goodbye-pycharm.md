@@ -2,6 +2,9 @@
 title: "Goodbye, PyCharm"
 date: 2019-04-19
 categories: code
+
+classes:
+  - wide
 ---
 
 I've used PyCharm as my daily IDE extensively for quite some time, and now finally I can say goodbye to it.

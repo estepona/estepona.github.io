@@ -3,7 +3,7 @@ main:
   - title: "code"
     url: /categories/code/
   - title: "杂"
-    url: /categories/za/
+    url: /categories/misc/
   - title: "诗"
     url: /categories/poem/
   # - title: "About"

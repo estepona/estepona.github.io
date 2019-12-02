@@ -2,6 +2,9 @@
 title: "There's an online Brainfuck Editor!"
 date: 2019-10-18
 categories: code
+
+classes:
+  - wide
 ---
 
 I was exploring different kinds of editors by changing the language from the url in https://repl.it/languages/python3 without first looking at its main website. I was surprised to be able to see `go`, `swift`, `cpp`, `c`... And then I tried something wild: `brainfuck`, and look what I found...

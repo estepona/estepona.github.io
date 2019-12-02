@@ -2,6 +2,9 @@
 title: "notes on paper \"Modern Code Review: A Case Study at Google\""
 date: 2019-01-30
 categories: code
+
+classes:
+  - wide
 ---
 
 I came across this paper this week and thought it very worth reading. The authors investigated the code review practice at Google and shared some insights.
