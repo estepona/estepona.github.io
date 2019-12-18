@@ -7,7 +7,7 @@ classes:
   - wide
 ---
 
-Recently, I've thinking about if it's worth to get rid of the storage disks and embrace the cloud storage, so I did some research on the cost of some popular cloud storage providers, and there seems to be a simple rule behind the pricing schema (that I'm probably too dumb to realize earlier): 2B (to business) is more flexible, while 2C (to consumer) has fixed pricing but simpler.
+Recently, I've been thinking about if it's worth it to get rid of the storage disks and embrace the cloud storage, so I did some research on the cost of some popular cloud storage providers, and there seems to be a simple rule behind the pricing schema (that I'm probably too dumb to realize earlier): 2B (to business) is more flexible, while 2C (to consumer) has fixed pricing but simpler.
 
 As of today, Dec 17, 2019, here are what 2C cloud storage cost looks like, the pricing schema is very simple to understand and calculate based on personal usage:
 
