@@ -1,7 +1,7 @@
 ---
 title: "My 1st Tech Book Finished in 2020"
 date: 2020-02-07
-categories: code
+categories: en
 
 header:
   image: /assets/img/2020-02-07-my-1st-tech-book-finished-in-2020/1.png

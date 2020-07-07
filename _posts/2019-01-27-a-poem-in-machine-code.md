@@ -1,7 +1,7 @@
 ---
 title: "a poem in machine code"
 date: 2019-01-27
-categories: code
+categories: en
 
 classes:
   - wide

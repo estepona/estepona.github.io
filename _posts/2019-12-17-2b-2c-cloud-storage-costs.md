@@ -1,7 +1,7 @@
 ---
 title: "2B and 2C Cloud Storage Costs"
 date: 2019-12-17
-categories: code
+categories: en
 
 classes:
   - wide

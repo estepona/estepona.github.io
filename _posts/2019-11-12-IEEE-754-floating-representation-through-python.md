@@ -1,7 +1,7 @@
 ---
 title: "IEEE 754 floating representation through python"
 date: 2019-11-12
-categories: code
+categories: en
 
 header:
   image: /assets/img/2019-11-12-IEEE-754-floating-representation-through-python/header3.png

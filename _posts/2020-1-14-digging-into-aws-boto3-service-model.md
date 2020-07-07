@@ -1,7 +1,7 @@
 ---
 title: "Digging into AWS Boto3 Service Model"
 date: 2020-01-14
-categories: code
+categories: en
 
 classes:
   - wide

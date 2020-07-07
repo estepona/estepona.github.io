@@ -1,11 +1,9 @@
 # main links
 main:
-  - title: "code"
-    url: /categories/code/
-  - title: "杂"
-    url: /categories/misc/
-  - title: "诗"
-    url: /categories/poem/
+  - title: "EN"
+    url: /categories/en/
+  - title: "文"
+    url: /categories/wen/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
