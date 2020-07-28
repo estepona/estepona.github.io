@@ -79,6 +79,6 @@ No, I failed.
 
 I had a fight with my wife and I couldn't get myself to LeetCode for 2 days, so 98/100, not bad! I'm satisfied.
 
-I may have this challenge again sometime and the end of this year or next year. Before that, I want to write some actual engineering code, lol.
+I may have this challenge again sometime at the end of this year or next year. Before that, I want to write some actual engineering code, lol.
 
 BTW, typing on my MSI GP62MVR feels so much better than on the MBP15 2018, even though I have 3 keys broken and remapped...
