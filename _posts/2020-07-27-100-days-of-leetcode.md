@@ -67,7 +67,7 @@ Oh I love them, so beautiful in any language.
 
 Also, gotta admire [lee215](https://www.youtube.com/channel/UCUBt1TDQTl1atYsscVoUzoQ) and [花花酱](https://www.youtube.com/channel/UC5xDNEcvb1vgw3lE21Ack2Q) for their awesome solutions and videos, helped me a looooooooooooooooooot.
 
-Besides the regular daily problems, I also did quite a few weekly contests. Contest can be reaaaaally interesting sometimes, as it forces you to do your best in 90 minutes solving typically 1 easy, 2 medium, and 1 hard problems. I usually solve 3 problems and get a top 20% - 40% score. Hard problems can be extra hard if it's the first time you see it. I've only solved hard problems 2 or 3 times. Here are some screenshot of my best scores.
+Besides the regular daily problems, I also did quite a few weekly contests. Contest can be reaaaaally interesting sometimes, as it forces you to do your best in 90 minutes solving typically 1 easy, 2 medium, and 1 hard problems. I usually solve 3 problems and get a top 20% - 40% score. Hard problems can be extra hard if it's the first time you see it. I've only solved hard problems 2 or 3 times. Here are some screenshots of my best scores.
 
 ![2](/assets/img/2020-07-27-100-days-of-leetcode/2.png)
 
