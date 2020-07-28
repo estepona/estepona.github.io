@@ -17,7 +17,7 @@ To formalize this challenge (at least for myself), I made myself several rules:
 
 - everyday, solve 1-3 easy problem(s), or 1-2 medium problem(s), or 1 hard problem;
 - a LeetCode weekly contest counts as one day, if I'm unable to solve any of the problems in a contest, that day is marked as fail;
-- the real important thing is about understanding the solution of a problem, even an easy one, not memorizing the code that solves the problem;
+- the real important thing is about understanding the solution of a problem (even an easy one), rather than memorizing the code that solves the problem;
 
 And to keep a record of the problem(s) I solve everyday, I created a Google Sheet (the one in the header), I try to categorize the problems and keep some notes, which turned out to be no more than something that boosts my confidence: "Hey, look at this long list, I've solved so many problems so many times!" Oh, also speaking from a former data scientist's perspective, that's some rich data I can perform some analysis of myself later.
 
