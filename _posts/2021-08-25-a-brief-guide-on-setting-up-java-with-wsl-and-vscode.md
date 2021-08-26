@@ -1,5 +1,5 @@
 ---
-title: "A Brief Guide of Setting Up Java with WSL and VSCode"
+title: "A Brief Guide on Setting Up Java with WSL and VSCode"
 date: 2021-08-25
 categories: en
 
