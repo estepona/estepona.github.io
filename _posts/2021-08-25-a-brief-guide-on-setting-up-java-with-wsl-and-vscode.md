@@ -3,6 +3,8 @@ title: "A Brief Guide on Setting Up Java with WSL and VSCode"
 date: 2021-08-25
 categories: en
 
+header:
+  image: /assets/img/2021-08-25-a-brief-guide-on-setting-up-java-with-wsl-and-vscode/1.png
 classes:
   - wide
 ---
