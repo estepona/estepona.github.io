@@ -119,7 +119,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/estepona"
     - label: "小红书"
-      icon: "fas fa-fw fa-link"
+      icon: "https://avatars.githubusercontent.com/u/21250370?v=4"
       url: "https://www.xiaohongshu.com/user/profile/5bfea73744363b0b52d21a31"
     - label: "知乎"
       icon: "fas fa-fw fa-link"
