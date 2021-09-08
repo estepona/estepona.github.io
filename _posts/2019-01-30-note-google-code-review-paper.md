@@ -1,7 +1,7 @@
 ---
 title: "notes on paper \"Modern Code Review: A Case Study at Google\""
 date: 2019-01-30
-categories: en
+categories: dev
 
 classes:
   - wide

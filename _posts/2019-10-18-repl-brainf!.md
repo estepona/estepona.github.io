@@ -1,7 +1,7 @@
 ---
 title: "There's an online Brainfuck Editor!"
 date: 2019-10-18
-categories: en
+categories: dev
 
 classes:
   - wide

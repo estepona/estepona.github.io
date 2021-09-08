@@ -1,10 +1,10 @@
 ---
-title: "EN"
-permalink: /categories/en/
+title: "诗"
+permalink: /categories/poem/
 layout: archive
 author_profile: true
 ---
 
-{% for post in site.categories.en %}
+{% for post in site.categories.poem %}
   {% include archive-single.html show_read_time=true %}
 {% endfor %}

@@ -1,7 +1,7 @@
 ---
 title: "Goodbye, PyCharm"
 date: 2019-04-19
-categories: en
+categories: dev
 
 classes:
   - wide

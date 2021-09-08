@@ -1,7 +1,7 @@
 ---
 title: "Lines from Enter The Dragon"
 date: 2021-06-19
-categories: en
+categories: dev
 
 classes:
   - wide

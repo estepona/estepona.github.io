@@ -1,7 +1,7 @@
 ---
 title: "100 Days of LeetCode"
 date: 2020-07-27
-categories: en
+categories: dev
 
 header:
   image: /assets/img/2020-07-27-100-days-of-leetcode/1.png

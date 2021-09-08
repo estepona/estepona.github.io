@@ -1,7 +1,7 @@
 ---
 title: "notes on paper \"Innateness, AlphaZero, and Artificial Intelligence\""
 date: 2019-03-07
-categories: en
+categories: dev
 
 classes:
   - wide

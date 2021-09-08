@@ -1,7 +1,7 @@
 ---
 title: "notes on paper \"Hidden Technical Debt in Machine Learning Systems\""
 date: 2019-10-17
-categories: en
+categories: dev
 
 classes:
   - wide
