@@ -60,7 +60,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: freddie_zhang
+# disqus_username: freddie_zhang
 
 # Netease settings
 netease_comment: false
