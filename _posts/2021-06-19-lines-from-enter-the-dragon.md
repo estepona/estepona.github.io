@@ -1,10 +1,13 @@
 ---
+layout: post
 title: "Lines from Enter The Dragon"
+subtitle: "Bow to Master Bruce Lee"
 date: 2021-06-19
-categories: dev
-
-classes:
-  - wide
+author: "Binghuan Zhang"
+catalog: false
+header-style: text
+tags:
+  - movie
 ---
 
 I watched the movie *Enter The Dragon* over yesterday and the lines went deep from the very beginning that I'd like to share here.

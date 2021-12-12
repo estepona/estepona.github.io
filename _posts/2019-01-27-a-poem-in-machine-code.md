@@ -1,10 +1,12 @@
 ---
-title: "a poem in machine code"
+layout: post
+title: "A Poem in Machine Code"
 date: 2019-01-27
-categories: dev
-
-classes:
-  - wide
+author: "Binghuan Zhang"
+catalog: true
+header-style: text
+tags:
+  - dev
 ---
 
 I write poems. I wrote this short poem in 2015.

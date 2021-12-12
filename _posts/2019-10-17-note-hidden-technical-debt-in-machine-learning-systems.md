@@ -1,10 +1,13 @@
 ---
-title: "notes on paper \"Hidden Technical Debt in Machine Learning Systems\""
+layout: post
+title: "Notes on Paper \"Hidden Technical Debt in Machine Learning Systems\""
 date: 2019-10-17
-categories: dev
-
-classes:
-  - wide
+author: "Binghuan Zhang"
+catalog: true
+header-style: text
+tags:
+  - dev
+  - ML
 ---
 
 I came across this paper several weeks ago when I was learning a tool called Airflow that helps with task orchestration, and I found the paper extremely practical and well written. It seems that for even small to medium sized machine learning systems, they'll soon to be needing some sort of workflow management or scheduling tools for various jobs, including but not limited to model training and deployment. These systems also seem to be more brittle and more entangled. Having been worked both as a data scientist and a backend developer, I know it is not easy for most data scientist to deploy a model and maintain the codebase. The authors of this paper did an amazing job identifying the most common problems in machine learning systems and provided guidance on how to mitigate the risks. I would highly suggest everyone who's working on machine learning projects read this paper. Yuo may find that the same problems are actually sitting in the codebase that you are working on.
@@ -57,7 +60,7 @@ Identified technical debts:
     - Process Management Debt
     - Cultural Debt
 
-![ml-code](/assets/img/2019-10-17-note-hidden-technical-debt-in-machine-learning-systems/1.png)
+![ml-code](/img/posts/2019-10-17-note-hidden-technical-debt-in-machine-learning-systems/1.png)
 
 What we model is only a tiny portion of the overall machine learning system!
 

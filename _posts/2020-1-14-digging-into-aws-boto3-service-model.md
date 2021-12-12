@@ -1,10 +1,12 @@
 ---
-title: "Digging into AWS Boto3 Service Model"
+layout: post
+title: "Digging into AWS boto3 Service Model"
 date: 2020-01-14
-categories: dev
-
-classes:
-  - wide
+author: "Binghuan Zhang"
+catalog: true
+header-style: text
+tags:
+  - dev
 ---
 
 Calling AWS APIs in Python is made easy with the official [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) SDK, if you want to use a service like [AWS S3](https://aws.amazon.com/s3/) programmatically, you can simply write:
@@ -28,47 +30,47 @@ ecr_client.describe_repositories()
 
 First of all, when you call `boto3.client('ecr')`, the first thing `boto3` does is not actually creating an ECR client, but creating a global `Session`, source code of which can be found [here](https://github.com/boto/boto3/blob/develop/boto3/session.py). This `Session` will load a bunch of things upon creation, such as credentials (**AWS_ACCESS_KEY**, **AWS_SECRET_KEY_ID**), profiles, region, and a [loader](https://github.com/boto/boto3/blob/86392b5ca26da57ce6a776365a52d3cab8487d60/boto3/session.py#L116) which is responsible for loading the service model. Then, it calls the [`.client()`](https://github.com/boto/boto3/blob/86392b5ca26da57ce6a776365a52d3cab8487d60/boto3/session.py#L185) method on `Session` to generate the specific service client that you ask, i.e. ECR.
 
-![](/assets/img/2020-1-14-digging-into-aws-boto3-service-model/5.png)
+![](/img/posts/2020-1-14-digging-into-aws-boto3-service-model/5.png)
 
 # Loading Service Model
 
 What is a service model? Below is the definition given by AWS on [this](https://aws.amazon.com/sdk-for-python/) page. Notice three terms: "generated classes", "JSON models", and "APIs". So basically a service model defines a bunch of **APIs** like `ecr_client.describe_repositories()` living in a **JSON file** that **generates classes** when loaded.
 
-![](/assets/img/2020-1-14-digging-into-aws-boto3-service-model/6.png)
+![](/img/posts/2020-1-14-digging-into-aws-boto3-service-model/6.png)
 
 When loaded, service model creates certain API methods with three sub components: **metadata**, **oprations**, and **shapes**. Metadata lists details like the *apiVersion* and *serviceId*. Operations are actually APIs that you can call like *DescribeRepositories*. And shapes like *DescribeRepositoriesRequest* and *DescribeRepositoriesResponse* define the format and data types of API inputs, outputs, and all intermediate arguments.
 
-![](/assets/img/2020-1-14-digging-into-aws-boto3-service-model/7.png)
+![](/img/posts/2020-1-14-digging-into-aws-boto3-service-model/7.png)
 
 You may wonder where is that **JSON model**? Well you can actually find it [here](https://github.com/boto/botocore/blob/develop/botocore/data/ecr/2015-09-21/service-2.json) or under `botocore`'s "./data" folder. It is such a long json file to read, so I recommend using some sort of json viewer to read, which gives a much better structured view. My favorite one is [http://jsonviewer.stack.hu/](http://jsonviewer.stack.hu/).
 
-![](/assets/img/2020-1-14-digging-into-aws-boto3-service-model/8.png)
+![](/img/posts/2020-1-14-digging-into-aws-boto3-service-model/8.png)
 
 As you can see, each operation has four members: `http`, `input`, `output`, and `errors`, and each `input` and `output` has a `shape`. You can find the shapes down below:
 
-![](/assets/img/2020-1-14-digging-into-aws-boto3-service-model/9.png)
+![](/img/posts/2020-1-14-digging-into-aws-boto3-service-model/9.png)
 
 Each shape has two members: `type` and `members`. `type` is much like a data type, is it a string, number, or object. `members` include the arguments you pass to the API call, and each `member` has its own `shape`, making it a nested structure until a shape that has primitive data type is met, such as:
 
-![](/assets/img/2020-1-14-digging-into-aws-boto3-service-model/10.png)
+![](/img/posts/2020-1-14-digging-into-aws-boto3-service-model/10.png)
 
 Following are some screenshots I made to better illustrate the whole process. All screenshots are made in VSCode.
 
 When you create the service client, a class is created with the passed `_loader` that loads `_service_model` of that service.
 
-![](/assets/img/2020-1-14-digging-into-aws-boto3-service-model/1.png)
+![](/img/posts/2020-1-14-digging-into-aws-boto3-service-model/1.png)
 
 Operations and shapes are stored in `_service_model`.
 
-![](/assets/img/2020-1-14-digging-into-aws-boto3-service-model/2.png)
+![](/img/posts/2020-1-14-digging-into-aws-boto3-service-model/2.png)
 
 Operations.
 
-![](/assets/img/2020-1-14-digging-into-aws-boto3-service-model/3.png)
+![](/img/posts/2020-1-14-digging-into-aws-boto3-service-model/3.png)
 
 Shapes.
 
-![](/assets/img/2020-1-14-digging-into-aws-boto3-service-model/4.png)
+![](/img/posts/2020-1-14-digging-into-aws-boto3-service-model/4.png)
 
 # Conclusion
 

@@ -1,12 +1,14 @@
 ---
+layout: post
 title: "My 1st Tech Book Finished in 2020"
 date: 2020-02-07
-categories: dev
-
-header:
-  image: /assets/img/2020-02-07-my-1st-tech-book-finished-in-2020/1.png
-classes:
-  - wide
+author: "Binghuan Zhang"
+catalog: true
+header-img: "img/posts/2020-02-07-my-1st-tech-book-finished-in-2020/1.png"
+header-mask: 0.4
+tags:
+  - dev
+  - UI
 ---
 
 Didn't figure that the 1st tech book I finished in 2020 is about front-end, and more specifically about UI: [Refactoring UI](https://refactoringui.com/book/). It's a great book to read and I finished it within 2 days, and I learned A LOT.

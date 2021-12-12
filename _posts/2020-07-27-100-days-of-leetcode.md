@@ -1,12 +1,13 @@
 ---
+layout: post
 title: "100 Days of LeetCode"
 date: 2020-07-27
-categories: dev
-
-header:
-  image: /assets/img/2020-07-27-100-days-of-leetcode/1.png
-classes:
-  - wide
+author: "Binghuan Zhang"
+catalog: true
+header-img: "img/posts/2020-07-27-100-days-of-leetcode/1.png"
+header-mask: 0.4
+tags:
+  - dev
 ---
 
 Writing down this article while listening to some Mandopop 「夜長夢少」 by 傻子與白癡.
@@ -69,9 +70,9 @@ Also, gotta admire [lee215](https://www.youtube.com/channel/UCUBt1TDQTl1atYsscVo
 
 Besides the regular daily problems, I also did quite a few weekly contests. Contest can be reaaaaally interesting sometimes, as it forces you to do your best in 90 minutes solving typically 1 easy, 2 medium, and 1 hard problems. I usually solve 3 problems and get a top 20% - 40% score. Hard problems can be extra hard if it's the first time you see it. I've only solved hard problems 2 or 3 times. Here are some screenshots of my best scores.
 
-![2](/assets/img/2020-07-27-100-days-of-leetcode/2.png)
+![2](/img/posts/2020-07-27-100-days-of-leetcode/2.png)
 
-![3](/assets/img/2020-07-27-100-days-of-leetcode/3.png)
+![3](/img/posts/2020-07-27-100-days-of-leetcode/3.png)
 
 And finally, did I complete the challenge?
 

@@ -1,10 +1,12 @@
 ---
-title: "notes on paper \"Modern Code Review: A Case Study at Google\""
+layout: post
+title: "Notes on Paper \"Modern Code Review: A Case Study at Google\""
 date: 2019-01-30
-categories: dev
-
-classes:
-  - wide
+author: "Binghuan Zhang"
+catalog: true
+header-style: text
+tags:
+  - dev
 ---
 
 I came across this paper this week and thought it very worth reading. The authors investigated the code review practice at Google and shared some insights.

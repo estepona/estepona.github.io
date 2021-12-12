@@ -1,12 +1,14 @@
 ---
-title: "IEEE 754 floating representation through python"
+layout: post
+title: "IEEE 754 Demonstrating Floating Representation with Python"
+subtitle: "Floats are cool"
 date: 2019-11-12
-categories: dev
-
-header:
-  image: /assets/img/2019-11-12-IEEE-754-floating-representation-through-python/header3.png
-classes:
-  - wide
+author: "Binghuan Zhang"
+catalog: true
+header-img: "img/posts/2019-11-12-IEEE-754-floating-representation-through-python/header3.png"
+header-mask: 0.6
+tags:
+  - dev
 ---
 
 Today it's all about floats. How a float (number) is represented in binary, and in machine? Let's try an example in Python. I found this topic to be really interesting as we're going to the very basics of computing!
@@ -17,7 +19,7 @@ I pick the number 263.3 for demonstration because I found this amazing [video](h
 
 First, according to the [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754) standard, a floating-point number can be basically represented by the equation:
 
-![1](/assets/img/2019-11-12-IEEE-754-floating-representation-through-python/1.png)
+![1](/img/posts/2019-11-12-IEEE-754-floating-representation-through-python/1.png)
 
 In a human-readable form, just like a scientific notation, a number can be represent as:
 
