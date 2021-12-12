@@ -7,6 +7,7 @@ catalog: true
 header-style: text
 tags:
   - dev
+  - paper
   - ML
 ---
 

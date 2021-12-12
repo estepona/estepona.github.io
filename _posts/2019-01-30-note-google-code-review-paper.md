@@ -7,6 +7,7 @@ catalog: true
 header-style: text
 tags:
   - dev
+  - paper
 ---
 
 I came across this paper this week and thought it very worth reading. The authors investigated the code review practice at Google and shared some insights.
