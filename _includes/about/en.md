@@ -1,6 +1,6 @@
 Hi, My name is Binghuan Zhang, currently a software engineer at [Toast](https://pos.toasttab.com/) working on backend and building infrastructure and tools for Machine Learning projects. In the past, I worked at [PinOn](https://www.pinon.io/).
 
-I raised two adorable cats at home. Besides work, I write code, play games, read books, and sometimes write poems. My favorite game directors are Hidetaka Miyazaki and Hideo Kojima. My favorite authors are Haruki Murakami, Herman Hesse, and W. Somerset Maugham.
+I raised two adorable cats at home. Besides work, I write code, play games, read books, and sometimes write poems. My favorite game directors are Hidetaka Miyazaki and Hideo Kojima. My favorite authors are Haruki Murakami, Herman Hesse, and W. Somerset Maugham. My favorite poet is Li Bai.
 
 ##### Some Projects
 
