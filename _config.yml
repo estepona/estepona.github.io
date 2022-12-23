@@ -79,7 +79,7 @@ ga_domain: estepona.github.io
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "张秉寰 <br> Binghuan Zhang <br><br> 敲代码，魂学家，偶尔写诗 <br> Code, Souls, sometimes write poems."
+sidebar-about-description: "张秉寰 <br> Binghuan Zhang <br><br> 程序员 / 诗 / FS社迷弟 / 武术爱好者 <br> developer / poems / FromSoftware fanboy / martial arts hobbyist"
 sidebar-avatar: https://github.com/estepona.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
