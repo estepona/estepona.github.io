@@ -1,6 +1,8 @@
-嗨，我叫张秉寰，目前是一位程序员，任职于 [Toast](https://pos.toasttab.com/)，主要负责后端及机器学习相关的基础架构和工具构建。曾就职于 [PinOn](https://www.pinon.io/)。
+嗨，我叫张秉寰，目前是一位程序员，任职于 [NVIDIA](https://www.nvidia.com/en-us/)，主要负责深度学习框架部门的 CI/CD、基础架构、及云服务。曾就职于 [Toast](https://pos.toasttab.com/) 和 [PinOn](https://www.pinon.io/)。
 
-家有两只可爱的猫，平常敲敲代码，打打游戏，看看书，偶尔写诗。最喜欢的游戏制作人是宫崎英高和小岛秀夫，最喜欢的作家是村上春树、赫尔曼·黑塞、毛姆，最喜欢的诗人是李白。
+家有两只可爱的猫，平常敲敲代码，打打游戏，看看书，偶尔写诗，最近沉迷于巴西柔术。
+
+我最喜欢的游戏制作人是[宫崎英高](https://zh.wikipedia.org/wiki/%E5%AE%AE%E5%B4%8E%E8%8B%B1%E9%AB%98)和[小岛秀夫](https://zh.wikipedia.org/wiki/%E5%B0%8F%E5%B2%9B%E7%A7%80%E5%A4%AB)。最喜欢的作家是[村上春树](https://zh.wikipedia.org/wiki/%E6%9D%91%E4%B8%8A%E6%98%A5%E6%A8%B9)、[赫尔曼·黑塞](https://zh.wikipedia.org/wiki/%E8%B5%AB%E5%B0%94%E6%9B%BC%C2%B7%E9%BB%91%E5%A1%9E)、[毛姆](https://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E8%90%A8%E9%BB%98%E5%A1%9E%E7%89%B9%C2%B7%E6%AF%9B%E5%A7%86)。最喜欢的诗人是[李白](https://zh.wikipedia.org/wiki/%E6%9D%8E%E7%99%BD)。
 
 ##### 一些项目
 
