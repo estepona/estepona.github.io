@@ -13,7 +13,7 @@ MacOS, Ubuntu, Windows, terminal, MacOS terminal, Warp, Zed, Ubuntu terminal, Wi
 
 Everything written in another language.
 
-Everything written to link any of two or more things.
+Everything written to link any two or more things.
 
 The list goes on and on...
 
